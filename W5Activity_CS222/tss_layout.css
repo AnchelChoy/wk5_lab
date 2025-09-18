@@ -60,3 +60,28 @@ body > footer {
 	width: 100%;
 	clear: left;
 }
+
+@media (max-width: 768px) {
+   body > nav,
+   body > aside,
+   body > article#about_tss,
+   article.syllabus {
+	  float: none;
+	  width: 100%;
+	  margin: 0;
+	  
+   }
+   
+   body > nav, body > article#about_tss, body > aside, article.syllabus {
+	  width: 96%;
+	  float: none;
+	  margin: 0 2% 20px 2%;
+   }
+   
+   body > article#about_tss img {
+	  float: none;
+	  display: block;
+	  width: 80%;
+	  margin: 10px auto;
+   }
+}
